@@ -29,3 +29,14 @@ array([[ 0.,  1.]])
 class sklearn.tree.DecisionTreeClassifier(criterion=’gini’, splitter=’best’, max_depth=None, min_samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, class_weight=None, presort=False)
 
 Important parameter to avoid overfitting: min_sample_split. Default is 2. i.e: for 2 sample data the tree will split.
+
+
+Entropy: May be not so much needed:
+An Entropy of 1 means equal distribution. E.g.: Fliping a fair coin. For totally enfair coin (always gets a head) still it's 1. For 25%-75%: Entropy is 0.811
+(https://en.wikipedia.org/wiki/Generalized_entropy_index)!
+
+So, it's probability. But instead of looking at a single event (Head/Tail) it's looking at the overall distibution. How much do you expect the result amoung certain options? If no preference of one than the other the Entropy is 1.
+
+
+
+
