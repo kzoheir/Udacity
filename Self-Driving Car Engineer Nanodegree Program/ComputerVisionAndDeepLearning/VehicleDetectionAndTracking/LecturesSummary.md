@@ -30,6 +30,11 @@ class sklearn.tree.DecisionTreeClassifier(criterion=’gini’, splitter=’best
 
 Important parameter to avoid overfitting: min_sample_split. Default is 2. i.e: for 2 sample data the tree will split.
 
+Bias-Variance dilemma: 
+-Bias: Not learning from data. Ignore the data. Not learning at all
+-Variance: Other extreme: Extremelly perceptive to data. Cannot handle anything that was not trained on before.
+What is need is a balance between the two.
+
 
 Entropy: May be not so much needed:
 - An Entropy of 1 means equal distribution. E.g.: Fliping a fair coin. For totally enfair coin (always gets a head) entropy is 0. For 25%-75%: Entropy is 0.811
