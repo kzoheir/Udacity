@@ -12,6 +12,10 @@ Three ways to cluster (separate) input data:
 -- Decision trees: Multiple linear questions: 
 
 Pros-cons:
+-- Decision trees:
+---- Advantage: Easy to use, beautiful to grow (i don't understand what this means!), graphical good to understand, can build bigger classifiers (ensemble method!)
+---- Disadvantage: Prone to overfitting (specially with a lot features), 
+
 
 How (and where):
 
