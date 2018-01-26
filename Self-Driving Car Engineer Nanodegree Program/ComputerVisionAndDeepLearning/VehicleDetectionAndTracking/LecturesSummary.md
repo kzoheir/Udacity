@@ -32,8 +32,8 @@ Important parameter to avoid overfitting: min_sample_split. Default is 2. i.e: f
 
 
 Entropy: May be not so much needed:
-An Entropy of 1 means equal distribution. E.g.: Fliping a fair coin. For totally enfair coin (always gets a head) still it's 1. For 25%-75%: Entropy is 0.811
-(https://en.wikipedia.org/wiki/Generalized_entropy_index)!
+An Entropy of 1 means equal distribution. E.g.: Fliping a fair coin. For totally enfair coin (always gets a head) entropy is 0. For 25%-75%: Entropy is 0.811
+(https://en.wikipedia.org/wiki/Generalized_entropyindex)!
 
 So, it's probability. But instead of looking at a single event (Head/Tail) it's looking at the overall distibution. How much do you expect the result amoung certain options? If no preference of one than the other the Entropy is 1.
 
@@ -41,6 +41,6 @@ In information. it's alwas base 2.
 
 Infromation gain = entropy (parent) - (weighted average) entropy (children)
 
-
+Decision tree maximizes the information gain
 
 
