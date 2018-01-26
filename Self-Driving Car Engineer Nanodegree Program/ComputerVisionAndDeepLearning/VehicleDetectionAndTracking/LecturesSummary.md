@@ -6,8 +6,16 @@ Example: In Stanley, we need to determine the car SPEED (high/low) based on the 
 
 Three ways to cluster (separate) input data:
 -- Naive Bayes (name is not indicative): Linear classifier: http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html
+
 -- Support Vector Machines  (name is not indicative): Linearity is overcomed by KERNELS (adding x^2, etc to features): http://scikit-learn.org/stable/modules/svm.html
+
 -- Decision trees: Multiple linear questions: 
+
+Pros-cons:
+
+How (and where):
+
+What are they:
 
 
 Decision trees: http://scikit-learn.org/stable/modules/tree.html
