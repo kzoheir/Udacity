@@ -37,6 +37,10 @@ An Entropy of 1 means equal distribution. E.g.: Fliping a fair coin. For totally
 
 So, it's probability. But instead of looking at a single event (Head/Tail) it's looking at the overall distibution. How much do you expect the result amoung certain options? If no preference of one than the other the Entropy is 1.
 
+In information. it's alwas base 2.
+
+Infromation gain = entropy (parent) - (weighted average) entropy (children)
+
 
 
 
