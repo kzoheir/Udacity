@@ -23,13 +23,13 @@ The goals / steps of this project are the following:
 My pipeline consisted of 5 steps. First, I converted the images to:
 * grayscale [no parameters
 * gaussian parameter: gaussian_kernel_sizes
-** tried [3, 5, 7,9]:
+* * tried [3, 5, 7,9]:
 * canny [canny_low_threshold, canny_high_threshold]
-** tried: [50,150] to [100,300] steps [10, 30]
+* * tried: [50,150] to [100,300] steps [10, 30]
 * mask the region of interest [ (130, 500), (450, 320), (470, 320), (900, 500)
 * hough lines :
 * * rhos = [1, 2, 3]
-* *thetas = [1, 6, 11, 16, 21, 26, 31, 36, 41, 46, 51, 56, 61] degrees
+* * thetas = [1, 6, 11, 16, 21, 26, 31, 36, 41, 46, 51, 56, 61] degrees
 * * threshold = 15 # minimum number of votes (intersections in Hough grid cell)
 * * min_line_len = 2 #minimum number of pixels making up a line
 * * max_line_gap = 40 # maximum gap in pixels between connectible line segments
