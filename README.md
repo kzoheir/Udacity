@@ -1,2 +1,2 @@
 # Udacity
-Udacity projects - Khaled Zoheir: [link](khaled.zoheir.kz@gmail.com)
+Udacity projects - Khaled Zoheir: [email](khaled.zoheir.kz@gmail.com)
