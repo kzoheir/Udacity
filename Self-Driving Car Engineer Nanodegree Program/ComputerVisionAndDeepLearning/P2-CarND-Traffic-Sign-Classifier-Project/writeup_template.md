@@ -135,9 +135,9 @@ Here are some of the test done and the corresponding actions:
 - - EPOCHS = 25, BATCH_SIZE = 100, rate = 0.001, KEEP_PROBA = 0.5  ==> 0.952, 0.948, 0.952, 0.949 ==> Good enough results.
 
 My final model results were:
-* training set accuracy of: 0.994
-* validation set accuracy of: 0.953
-* test set accuracy of: 0.953
+* training set accuracy of: 0.989
+* validation set accuracy of: 0.931
+* test set accuracy of: 0.931
 
 ### Test a Model on New Images
 
@@ -175,46 +175,45 @@ First image: Ahead only
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| .??         			| Road work   									|
-| .??     				| Double curve 										|
-| .??					| Wild animals crossing											|
-| .??	      			| Slippery road					 				|
-| .??				    | Speed limit (60km/h)      							|
-
-
-Second image: Beware of ice/snow
+| .80         			| Road work   									|
+| .07     				| Speed limit (60km/h) 										|
+| .04					| Speed limit (80km/h)											|
+| .02	      			| Speed limit (50km/h)					 				|
+| .02				    | No passing for vehicles over 3.5 metric tons      							|
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| .??         			| No entry   									|
-| .??     				| Priority road 										|
-| .??					| Keep right											|
-| .??	      			| Roundabout mandatory					 				|
-| .??				    | Stop      							|
+| 1.0         			| No entry   									|
+| .00     				| Stop 										|
+| .00					| Speed limit (20km/h)											|
+| .00	      			| Roundabout mandatory					 				|
+| .00				    | Priority road      							|
 
 Third image: Speed limit (100km/h)
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| .??         			| Stop   									|
-| .??     				| Speed limit (70km/h) 										|
-| .??					| Keep right											|
-| .??	      			| General caution					 				|
-| .??				    | No entry      							|
+| .95         			| 'No entry   									|
+| .04     				| Stop 										|
+| .004					| Traffic signals											|
+| .0004	      			| Turn right ahead					 				|
+| .0002			    | Keep right      							|
+
 
 Forth image: Turn left ahead
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| .??         			| Turn left ahead   									|
-| .??     				| Keep right 										|
-| .??					| No vehicles											|
-| .??	      			| Stop					 				|
-| .??				    | Traffic signals      							|
+| .66         			| Turn left ahead   									|
+| .34     				| Keep right 										|
+| .00					| No vehicles											|
+| .00	      			| Yield					 				|
+| .00				    | No entry      							|
+
 
 Fifth image: Yield
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| .??         			| Yield   									|
-| .??     				| Ahead only 										|
-| .??					| No passing											|
-| .??	      			| Children crossing					 				|
-| .??				    | Keep right      							|
+| 1.00         			| Yield   									|
+| .00     				| No passing 										|
+| .00					| Ahead only											|
+| .00	      			| Children crossing					 				|
+| .00				    | Turn left ahead      							|
