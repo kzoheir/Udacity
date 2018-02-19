@@ -139,4 +139,5 @@ Some improvements:
 * Restrict the area of interest not to take false positives from the other road.
 * HOG features extraction: Use combined color channels. We can use 4 different channels instead of 3.  E.g.: "Y", "Cr", "Cb", and "R".
 * Try different classifiers (specially deep neural networks) or tune the SVC parameters.
+* Implement multi-window sizes for different regions and increase the heat threshold.
 * Most importantly, with the current dataset, as the accuracy of the prediction is very satisfactory (above 99%), get enough test images to test the different settings and do not rely on the accuracy alone.
